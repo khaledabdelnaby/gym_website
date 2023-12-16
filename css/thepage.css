@@ -41,11 +41,31 @@ nav ul li {
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
 
+    position: relative;
+    text-decoration: none;
+    color: #909090;
+    font-weight: bold;
+    transition: .3s;
+
+}
+nav a::before{
+    content: '';
+    position: absolute;
+    right: 0%;
+    height: 3px;
+    width: 0%;
+    background-color: #397cff;
+    bottom: -7px;
+    transition: .3s;
+
+}
+nav a:hover{
+    color: white;
+}
+nav a:hover::before{
+    width: 100%;
+}
 section {
     padding: 20px;
     text-align: right;
@@ -90,8 +110,8 @@ nav button {
     bottom: 20px;
     right: 20px;
     font-size: 24px;
-    background-color: #3498db;
-    color: #fff;
+    /* background-color: #edeff1; */
+    color: #ed0a0a;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
@@ -99,9 +119,9 @@ nav button {
     transition: background-color 0.3s ease-in-out;
 }
 
-.scroll-to-top:hover {
-    background-color: #2980b9;
-}
+ .scroll-to-top:hover {
+    background-color: #f2f4f5;
+} 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -112,7 +132,7 @@ body {
     min-height: 100vh;
 }
 h1, h2, h3 {
-    color: #333;
+    color:rgb(255, 255, 255);
 }
 
 #exercise-guide {
@@ -123,19 +143,37 @@ h1, h2, h3 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+a {
+   text-decoration: none;
+   color: #010101;  
+
+}
 .muscle {
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ccc;
-}
 
+}
+.muscle:hover {
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.muscle h1,h2,h3{
+    color:rgb(0%, 0%, 0%);
+
+}
 img {
     width: 50px;
     height: 50px;
     margin-right: 10px;
 }
-.social-icons img {
-    width: 30px;
-    height: 30px;
-    margin: 0 5px;
+
+.icon_web{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
 }
+
+/* css for vertical navigation */
+
+/* css search navigation */

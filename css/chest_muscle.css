@@ -59,7 +59,10 @@ nav a {
     border-radius: 5px;
   }
   
- 
+ li img:hover{
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
 footer {
   background-color: #333;
   color: #fff;
@@ -69,11 +72,7 @@ footer {
   margin-top: auto; /* يجعله يظهر في الأسفل دون الحاجة لتثبيته بوضعية ثابتة */
 
 }
-.social-icons img {
-  width: 30px;
-  height: 30px;
-  margin: 0 5px;
-}
+
 
 
 .scroll-to-top {
@@ -81,8 +80,8 @@ footer {
   bottom: 20px;
   right: 20px;
   font-size: 24px;
-  background-color: #3498db;
-  color: #fff;
+  /* background-color: #3498db; */
+  color: #db1414;
   padding: 10px;
   border-radius: 50%;
   text-align: center;
@@ -94,7 +93,11 @@ footer {
   background-color: #2980b9;
 }
 
-
+.icon_web{
+  color: white;
+  text-decoration: none;
+  margin: 0px 10px;
+}
 
 
   

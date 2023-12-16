@@ -34,6 +34,11 @@ section {
     overflow: hidden;
 }
 
+.exercise:hover {
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
 .exercise img {
     width: 100%;
     height: auto;
@@ -51,7 +56,7 @@ section {
 
 
 footer {
-    background-color: #333;
+    background-color:black;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -60,11 +65,11 @@ footer {
     margin-top: auto; /* يجعله يظهر في الأسفل دون الحاجة لتثبيته بوضعية ثابتة */
 
 }
-.social-icons img {
+/* .social-icons img {
     width: 30px;
     height: 30px;
     margin: 0 5px;
-}
+} */
 
 nav ul {
     list-style: none;
@@ -90,15 +95,20 @@ nav a {
     bottom: 20px;
     right: 20px;
     font-size: 24px;
-    background-color: #3498db;
-    color: #fff;
+    /* background-color: #edeff1; */
+    color: #ed0a0a;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
     text-decoration: none;
     transition: background-color 0.3s ease-in-out;
 }
-
 .scroll-to-top:hover {
     background-color: #2980b9;
+}
+
+.icon_web{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
 }
