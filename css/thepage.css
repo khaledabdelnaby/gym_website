@@ -1,28 +1,19 @@
-/* body{
 
-    margin: 0px 50px;
-    border-color:rgb(38, 37, 39) ;
-    border-style: solid;
-}
-div{
-    border-color:red ;
-    border-style: solid;
-    width: 25%;
-    display: inline-block;
-    height: 50px;
-} */
 body {
+    /* direction: ltr; */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
-
+    
+    overflow-x: hidden;
 }
 
 header {
-    background-color: #333;
+
+    background-color: black;
     color: #fff;
-    text-align: right;
+    text-align: center;
     padding: 1em 0;
     
 }
@@ -41,7 +32,6 @@ nav ul li {
 }
 
 nav a {
-
     position: relative;
     text-decoration: none;
     color: #909090;
@@ -65,14 +55,14 @@ nav a:hover{
 }
 nav a:hover::before{
     width: 100%;
-}
+} 
 section {
     padding: 20px;
     text-align: right;
 }
 
 footer {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -111,7 +101,7 @@ nav button {
     right: 20px;
     font-size: 24px;
     /* background-color: #edeff1; */
-    color: #ed0a0a;
+    color: #397cff;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
@@ -119,9 +109,9 @@ nav button {
     transition: background-color 0.3s ease-in-out;
 }
 
- .scroll-to-top:hover {
+ /* .scroll-to-top:hover {
     background-color: #f2f4f5;
-} 
+}  */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -154,6 +144,19 @@ a {
     border: 1px solid #ccc;
 
 }
+/* p{
+    margin-right: 13pc;
+    margin-top: -3pc;
+} */
+h3{
+    
+        margin-right: 13pc;
+        margin-top: -3pc;
+}
+h2 {
+    text-align: center;
+    margin-bottom:-3pc ;
+}
 .muscle:hover {
     transform: scale(1.1);
     transition: 0.7s ease;
@@ -163,8 +166,8 @@ a {
 
 }
 img {
-    width: 50px;
-    height: 50px;
+    width: 178px;
+    height: 141px;
     margin-right: 10px;
 }
 
@@ -177,3 +180,13 @@ img {
 /* css for vertical navigation */
 
 /* css search navigation */
+
+.element {
+    
+    width: 100%;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 38px 0px;
+    border-color: transparent transparent #397cff transparent;
+  }
+  
