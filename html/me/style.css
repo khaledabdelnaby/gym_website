@@ -1,4 +1,4 @@
-*{
+/* *{
   margin: 0;
 }
 html {
@@ -11,7 +11,7 @@ html {
   position: fixed;
   width: 30%;
   height: 100vh;
-  /* background: wheat; */
+   background: wheat;
   background: white;
   font-size: 0.65em;
 }
@@ -40,7 +40,7 @@ html {
       line-height: 5em;
       text-transform: uppercase;
       text-decoration: none;
-      /* letter-spacing: 0.4em; */
+      letter-spacing: 0.4em;
       color: rgba(#FFF, 0.35);
       display: block;
       transition: all ease-out 300ms;
@@ -83,5 +83,59 @@ html {
 }
 li a{
   text-align: center;
+} */
+
+
+
+
+ body{
+  background-color: #EEE;
+ }
+section {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+
+}
+.personal{
+
+  overflow:scroll ;
+  width: 300px;
+  height: 100vh;
+  display: flex;
+   position: fixed; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  /* margin-right: 84pc; */
+  /* margin-bottom: 10pc; */
+
+
+}
+
+ul li {
+  text-align: center;
+  list-style: none;
+  margin-left: -3pc;
+  
+  margin-top: 4pc;
+}
+
+.img{
+  width: 70%;
+  height: auto;
+ 
+  text-align: center;
+
+}
+ul li a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+ 
+hr{
+  width: 100%;
 }
 

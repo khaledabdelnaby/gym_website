@@ -77,6 +77,7 @@ section {
 }
 
  .exercise {
+    margin-right: 200px;
     color: black;
     width: 300px;
     margin: 1em;
