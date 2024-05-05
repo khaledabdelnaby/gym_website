@@ -86,7 +86,7 @@ nav a:hover::before{
   transition: 0.7s ease;
 }
 footer {
-  background-color: black++;
+  background-color: black;
   color: #fff;
   text-align: center;
   padding: 1em 0; bottom: 0;
